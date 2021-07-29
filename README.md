@@ -308,5 +308,7 @@ ignoreClasspathPrefix= true
 4. Изменения накатываются на БД
 
 Links:
-https://habr.com/ru/post/460377/
-https://habr.com/ru/post/460907/
+
+[https://habr.com/ru/post/460377/](https://habr.com/ru/post/460377/)
+
+[https://habr.com/ru/post/460907/](https://habr.com/ru/post/460907/)
