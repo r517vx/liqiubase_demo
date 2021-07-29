@@ -1,0 +1,10 @@
+databaseChangeLog:
+- changeSet:
+    id: 1627554598955-1
+    author: your_liquibase_username (generated)
+    changes:
+    - addNotNullConstraint:
+        columnDataType: varchar(255)
+        columnName: email
+        tableName: users
+
