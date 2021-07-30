@@ -1,4 +1,6 @@
 # Настройки проекта и подключение liquibase
+*Нужно быть внимательными Hibernate и liquibase генерят немного разные названия колонок. При накатывании changeset колонка дропнется вместе со всеми данными*
+
 Настройки в файл _application.properties_
 ```
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver  
