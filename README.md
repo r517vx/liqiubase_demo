@@ -3,6 +3,8 @@
 
 *Лучше всего при подключении liquibase на существующий проект добиться чтобы при первом diff changeset был пуст*
 
+*Для устранения необднозначкостей навешиваем аннотации  @Column(name = "...") на поля Entity*
+
 Настройки в файл _application.properties_
 ```
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver  
